@@ -8,7 +8,7 @@ describe("payment", () => {
     cy.findByRole("textbox", { name: /username/i }).type("johndoe");
     cy.findAllByLabelText(/password/i).type("s3cret");
     cy.findByRole("checkbox", { name: /remember me/i }).check();
-    cy.findByRole("nutton", { name: /sign in/i }).click();
+    cy.findByRole("button", { name: /sign in/i }).click();
 
     //check account balance
     let oldBalance;
@@ -40,7 +40,7 @@ describe("payment", () => {
     cy.findByText(note).click({ force: true });
 
     //verify if payment was made
-    cy.findByText(`${paymentAmount}`).should("be.visible");
+    cy.findByText(`-$${paymentAmount}`).should("be.visible");
     cy.findByText(note).should("be.visible");
 
     // verify if payment was deducted

@@ -11,7 +11,7 @@
       "phoneNumber": "625-316-9882",
       "avatar": "https://cypress-realworld-app-svgs.s3.amazonaws.com/t45AiwidW.svg",
       "defaultPrivacyLevel": "public",
-      "balance": 9950000,
+      "balance": 9948500,
       "createdAt": "2019-08-27T23:47:05.637Z",
       "modifiedAt": "2020-05-21T11:02:22.857Z"
     },
@@ -71,7 +71,7 @@
       "phoneNumber": "277-189-3402",
       "avatar": "https://cypress-realworld-app-svgs.s3.amazonaws.com/tsHF6_D5oQ.svg",
       "defaultPrivacyLevel": "contacts",
-      "balance": 75369,
+      "balance": 76869,
       "createdAt": "2020-02-11T21:26:46.510Z",
       "modifiedAt": "2020-05-21T15:15:33.944Z"
     }
@@ -9855,6 +9855,42 @@
       "requestResolvedAt": "",
       "createdAt": "2019-06-27T22:24:04.794Z",
       "modifiedAt": "2020-05-21T04:58:44.494Z"
+    },
+    {
+      "id": "CyMJDS46d",
+      "uuid": "9610796d-5cc6-46e8-8547-e30248514d9d",
+      "amount": 500,
+      "description": "740ea051-e90b-46f7-bbb0-fac93f335d64",
+      "receiverId": "tsHF6_D5oQ",
+      "senderId": "t45AiwidW",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2021-09-06T05:21:46.973Z",
+      "modifiedAt": "2021-09-06T05:21:46.973Z"
+    },
+    {
+      "id": "uLhQPYGb2",
+      "uuid": "bf18ac51-4c91-4dd8-a5d3-34e77ea5e1cf",
+      "amount": 500,
+      "description": "4fc152b0-b06d-4752-93d8-237258b3ad02",
+      "receiverId": "tsHF6_D5oQ",
+      "senderId": "t45AiwidW",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2021-09-06T05:22:06.307Z",
+      "modifiedAt": "2021-09-06T05:22:06.307Z"
+    },
+    {
+      "id": "-teB4tBRf",
+      "uuid": "88763fdf-ea95-4873-aa37-fe0cbd4b9550",
+      "amount": 500,
+      "description": "fb865157-8898-48d1-b676-d7f2ac12b2ff",
+      "receiverId": "tsHF6_D5oQ",
+      "senderId": "t45AiwidW",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2021-09-06T05:24:10.093Z",
+      "modifiedAt": "2021-09-06T05:24:10.093Z"
     }
   ],
   "likes": [
@@ -10431,6 +10467,36 @@
       "isRead": false,
       "createdAt": "2019-10-19T20:50:49.292Z",
       "modifiedAt": "2020-05-21T21:00:50.192Z"
+    },
+    {
+      "id": "sUHiIj2X2D",
+      "uuid": "0923d478-2560-45f0-9dbb-7052dd24a930",
+      "userId": "tsHF6_D5oQ",
+      "transactionId": "CyMJDS46d",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2021-09-06T05:21:47.040Z",
+      "modifiedAt": "2021-09-06T05:21:47.040Z"
+    },
+    {
+      "id": "QwM_d86-oJ",
+      "uuid": "a3f14b2d-5de2-40b7-bed0-70c25a27a9a6",
+      "userId": "tsHF6_D5oQ",
+      "transactionId": "uLhQPYGb2",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2021-09-06T05:22:06.357Z",
+      "modifiedAt": "2021-09-06T05:22:06.357Z"
+    },
+    {
+      "id": "QozDBARY-L",
+      "uuid": "6b58affb-501d-401c-8fca-38d08058e7ed",
+      "userId": "tsHF6_D5oQ",
+      "transactionId": "-teB4tBRf",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2021-09-06T05:24:10.135Z",
+      "modifiedAt": "2021-09-06T05:24:10.135Z"
     }
   ],
   "banktransfers": [
